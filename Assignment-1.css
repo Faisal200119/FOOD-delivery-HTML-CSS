@@ -1,0 +1,170 @@
+body{
+    margin: auto;
+    background-color: rgb(252, 248, 248);
+    font-family: sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+header{
+    height: 60px;
+    background-color:red;
+    position: fixed;
+    width: 100%;
+}
+
+button{
+    height: 35px;
+    width: 100px;
+    background-color:#4a3c70;
+    margin-top: 6%;
+    border-radius: 3px;
+    cursor: pointer;
+    color: white;
+    border: none;
+    
+}
+
+#Login{
+    background-color:transparent;
+    font-size: 20px;
+}
+
+#Signup{
+    background-color:transparent;
+    font-size: 20px;
+}
+
+#name{
+    float: left;
+    display: flex;
+    color:white;
+}
+
+#name > h1{
+    height: 5px;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+
+.home{
+    margin-left: 15%;
+    margin-top: 12%;
+}
+
+#social{
+    float: right;
+    margin-right: 2%;
+}
+
+
+/*Search CSS*/
+.container{
+    height: 700px;
+    width: 90%;
+    /*border: 2px solid blue;*/
+    margin-left: 5%;
+    margin-top: 7%;
+    display: inline-block;
+
+}
+
+#filter{
+    height:650px ;
+    width: 20%;
+    border: 5px solid white;
+    float: left;
+    color:rgb(15, 15, 54);
+    background-color:white;
+    box-shadow: 0px 2px 2px gray;
+}
+.Location{
+    margin-left: 25px;
+    height: 30px;
+    border-radius: 5px;
+    width: 200px;
+    box-shadow: 0px 2px 2px gray;
+}
+
+#filter h1{
+    text-align: center;
+    padding: 3px;
+    
+      
+}
+
+#filter h2{
+    text-align: center;
+    margin-bottom: 8px;
+}
+
+#filter input{
+    margin-left: 12px;
+    margin-top: 8px;
+    cursor: pointer;
+    margin-right: 7px;
+}
+
+
+#content{
+    /*height: 700px;*/
+    width: 75%;
+    margin-left: 4% ;
+    /*border: 2px solid red;*/
+    float: left;
+}
+
+#item{
+    margin-left: 2%;
+    display: flex;
+    box-shadow: 0px 2px 2px gray;
+    height: 350px;
+    margin-bottom: 40px;
+    background-color: white;
+}
+
+
+.foodImage{
+    margin-top: 1%;
+    margin-left: 2%;
+}
+
+.foodImage img{
+    border-radius: 50px;
+    width: 400px;
+    height: 300px;
+    cursor: pointer;
+}
+
+.foodDescription{
+    margin-left: 2%;
+}
+
+.foodDescription h2{
+    color: rgb(15, 15, 54);
+}
+
+.foodDescription p{
+    color:rgb(15, 15, 54);
+    font-size: 15px;
+}
+
+.foodDescription div{
+    height: 24px;
+    width: 110px;
+    margin-right: 10px;
+    margin-top: 10px;
+    font-size: 15px;
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+}
+
+/* footer css */
+footer{
+    margin-left: 210px;
+    font-size: 10px;
+    color:rgb(15, 15, 54); 
+}
